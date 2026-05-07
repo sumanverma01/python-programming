@@ -1,0 +1,11 @@
+import numpy as np
+x= np.array([[[1,2,3,4 ,5]]])
+print(x.shape)
+print(x.ndim)
+x= np.array([[[1,2,3 ,4]],[[4,5,6,7]]])
+print(x.shape)
+print(x.ndim)
+y=x.reshape(-1)
+print(y)
+y=x.reshape((2,1,4))
+print(y)

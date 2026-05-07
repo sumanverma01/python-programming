@@ -1,0 +1,7 @@
+mytuple1 =("ram", "shyam", " mohan","shyam")
+mytuple2 = ( 1 , 2 , 3 , 4)
+mytuple3 = ( True, False, True )
+print(mytuple1)
+print(mytuple2)
+print(mytuple3)
+print(len(mytuple3))
